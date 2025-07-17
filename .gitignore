@@ -1,0 +1,195 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.pnpm-store/
+.npm/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Production
+build/
+dist/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.*.development
+.env.*.production
+.env.*.test
+.env.*.staging
+.env.*.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Frontend specific
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.next/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/.env.*.local
+frontend/node_modules/
+frontend/.pnp
+frontend/.pnp.js
+frontend/.pnp-store/
+frontend/.yarn-cache/
+frontend/.yarn/
+
+# Backend specific
+backend/build/
+backend/dist/
+backend/.env.local
+backend/.env.development.local
+backend/.env.test.local
+backend/.env.production.local
+backend/.env.*.local
+backend/node_modules/
+backend/.pnp
+backend/.pnp.js
+backend/.pnp-store/
+backend/.yarn-cache/
+backend/.yarn/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.iml
+*.iws
+*.ipr
+*.pyc
+__pycache__/
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Screenshots and large files
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.mp4
+*.webm
+*.mov
+*.avi
+*.wmv
+*.flv
+
+# Test files
+test-results.json
+test-report.html
+jest.config.js
+jest.setup.js
+jest.setupAfterEnv.js
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.sqlite-journal
+*.sqlite-wal
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# Debug files
+*.pdb
+*.idb
+*.map
+*.dSYM/
+
+# Generated files
+*.min.js
+*.min.css
+*.bundle.js
+*.bundle.css
+*.gz
+*.br
+*.zip
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# API keys and secrets
+*.key
+*.pem
+*.cer
+*.crt
+*.der
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# IDE specific
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.iml
+*.iws
+*.ipr
+
+# Misc
+*.lock
+*.lockfile
+*.npmignore
+*.gitkeep
+backend/dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# MongoDB data
+backend/data/*
+!backend/data/.gitkeep
